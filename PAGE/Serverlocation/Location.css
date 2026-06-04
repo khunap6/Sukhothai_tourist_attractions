@@ -1,0 +1,135 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #101224;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.world-map {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+}
+
+.world-map img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+}
+.title {
+     text-align: center;
+    color: #fff;
+    margin: 2em 0;
+    padding: 0 1em;
+}
+
+.title p {
+    max-width: 500px;
+    margin: 1em auto;
+    line-height: 27px;
+}
+
+.pin {
+    background: #4362f8;
+    position: absolute;
+    width: 0.7em;
+    height: 0.7em;
+    border-radius: 50%;
+}
+
+.pin::before {
+    content: '';
+    background: #4362f8;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    animation:
+       pulse 1.3s ease-in-out infinite;
+}
+
+.pin span {
+   display: inline-block;
+   white-space: nowrap;
+   position: absolute;
+   left: 1.5em;
+   top: 50%;
+   transform: translateY(-50%);
+   background: #fff;
+   border-radius: 3em;
+   padding: 0.3em 0.6em;
+   font-size: 0.9em;
+}
+
+.อุทยานประวัติศาสตร์สุโขทัย {
+    top: 50%;
+    left: 21%;
+}
+
+.เขาหลวง {
+    top: 50%;
+    left: 21%;
+}
+
+.บ้านนาต้นจั่น {
+    top: 50%;
+    left: 21%;
+}
+
+.เกาะรูปหัวใจทุ่งทะเลหลวง {
+    top: 50%;
+    left: 21%;
+}
+
+.หาดเจ้าราม {
+    top: 50%;
+    left: 21%;
+}
+
+.อ่างเก็บน้ําท่าดินแดง {
+    top: 50%;
+    left: 21%;
+}
+
+.เขื่อนสรีดภงส์ {
+    top: 50%;
+    left: 21%;
+}
+
+.อุทยานแห่งชาติศรีสัชนาลัย{
+    top: 50%;
+    left: 21%;
+}
+
+.น้ำตกสายรุ้ง{
+    top: 50%;
+    left: 21%;
+}
+
+.วัดช้างล้อม{
+    top: 50%;
+    left: 21%;
+}
+
+@keyframes pulse {
+    100%{
+       opccity: 0;
+       transform:
+           translate(-50%, -50%)
+           scale(2.5); 
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .world-map {
+        font-size: 13px;
+    }
+}

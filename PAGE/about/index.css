@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav
+{
+    background: #51a502;
+    height: 80px;
+    width: 100%;
+}
+label.logo
+{
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+nav ul
+{
+    float: right;
+    margin: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a
+{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: 'Mali',sans-serif;
+}
+nav li a:hover,a.ative
+{
+    border-radius: 20%;
+    padding: 2px;
+    background: #000;
+    transition: .5s;
+}
+.runtext
+{
+    font-size: large;
+}
+.contener-content
+{
+    position: relative;
+    top: 10px;
+    left: 10%;
+    background-color: #fff;
+    width: 80%;
+    height: 100%;
+}
+.container-about {
+    margin: 20px 195px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-about a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.box1 {
+    background-size: cover;
+    background-image: url('https://files.thailandtourismdirectory.go.th/assets/upload/2017/12/12/2017121248fc92624258b6a428bd409892ce93e5143537.jpg');
+}
+
+.box2 {
+    background-size: cover;
+    background-image: url('https://img.kapook.com/u/2017/Tanapol/travel/august/khoarung/khoarung1.jpg');
+}
+
+.box3 {
+    background-size: cover;
+    background-image: url('https://s.isanook.com/tr/0/ud/286/1433373/gtrh.jpg?ip/crop/w728h431/q80/webp');
+}
+
+.box4 {
+    background-size: cover;
+    background-image: url('https://travel.mthai.com/app/uploads/2014/06/20140623_3_1403514199_120767.jpg');
+}
+
+.box5 {
+    background-size: cover;
+    background-image: url('https://ik.imagekit.io/tvlk/blog/2019/03/shutterstock_1189840693-800x534.jpg?tr=dpr-2,w-675');
+}
+
+.box6 {
+    background-size: cover;
+    background-image: url('https://static.naewna.com/uploads/news/gallery/source/699934.jpg');
+}
+
+.box7 {
+    background-size: cover;
+    background-image: url('https://www.museumthailand.com/upload/evidence/1517625328_92442.jpeg');
+}
+
+.box8 {
+    background-size: cover;
+    background-image: url('https://www.silpa-mag.com/wp-content/uploads/2018/04/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%A7%E0%B8%B1%E0%B8%95%E0%B8%B4%E0%B8%A8%E0%B8%B2%E0%B8%AA%E0%B8%95%E0%B8%A3%E0%B9%8C%E0%B8%A8%E0%B8%A3%E0%B8%B5%E0%B8%AA%E0%B8%B1%E0%B8%8A%E0%B8%99%E0%B8%B2%E0%B8%A5%E0%B8%B1%E0%B8%A2-%E0%B8%88%E0%B8%B1%E0%B8%87%E0%B8%AB%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%AA%E0%B8%B8%E0%B9%82%E0%B8%82%E0%B8%97%E0%B8%B1%E0%B8%A2.jpg');
+}
+
+.box9 {
+    background-size: cover;
+    background-image: url('https://files.thailandtourismdirectory.go.th/assets/upload/2017/12/04/201712041589cac2a655f0e8fcb350a7e3dbd538164955.jpg');
+}
+
+.box10 {
+    background-size: cover;
+    background-image: url('https://files.thailandtourismdirectory.go.th/assets/upload/2017/12/18/20171218a3d48899cfd34c0d2c06ed521af09ead111016.jpg');
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6, .box7, .box8, .box9, .box10{
+    margin: 25px;
+    height: 25rem;
+    width: 20rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0.3rem 0.5rem rgb(0, 0, 0, 5);
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover, .box6:hover, .box7:hover, .box8:hover, .box9:hover, .box10:hover{
+    border-radius: 25px;
+    transition: 0.7s;
+    transform: translateY(-3px);
+    box-shadow: 0 19px 38px rgba(53, 48, 48, 0.3), 0 15px 12px rgba(48, 46, 46, 0.22);
+}
+
+
+.container-about h2{
+    position: flex;
+    padding: 20px;
+    
+}
